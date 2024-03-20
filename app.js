@@ -7,7 +7,7 @@ export const app = express();
 // Using middlewares 
 app.use(express.json());
 app.use(cors({
-    origin : "https://dreamlegalhome.vercel.app/",
+    origin : "https://dreamlegalhome.vercel.app",
     methods :["GET","POST","PUT","DELETE"],
     credentials: true,
 }))
