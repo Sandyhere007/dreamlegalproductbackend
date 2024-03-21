@@ -544,12 +544,15 @@ const productSchema = new mongoose.Schema({
     storage: {
         type: String,
     },
-    memoryChange: [{
+    storageChange: [{
         type: Object,
     },],
     fileSize: {
         type: String,
     },
+    fileSizeChange: [{
+        type: Object,
+    },],
     requestForChange: {
         type: Boolean,
         default: false
