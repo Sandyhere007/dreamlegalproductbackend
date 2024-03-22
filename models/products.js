@@ -217,7 +217,25 @@ const productSchema = new mongoose.Schema({
     customerSegment: [{
         type: Object,
     },],
-    customerSegmentPercentage: {
+    individualPractitionersPercentage: {
+        type: Number,
+    },
+    lawFirmsPercentage: {
+        type: Number,
+    },
+    inHouseLegalDepartmentsPercentage: {
+        type: Number,
+    },
+    enterprisesPercentage: {
+        type: Number,
+    },
+    judiciaryPercentage: {
+        type: Number,
+    },
+    governmentDepartmentsPercentage: {
+        type: Number,
+    },
+    startupsPercentage: {
         type: Number,
     },
 
@@ -499,7 +517,13 @@ const productSchema = new mongoose.Schema({
     videoLink: {
         type: String,
     },
-    knowHowDocument: {
+    knowHowDocument1: {
+        type: String,
+    },
+    knowHowDocument2: {
+        type: String,
+    },
+    knowHowDocument3: {
         type: String,
     },
     linkedIn: {
