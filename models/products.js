@@ -293,35 +293,35 @@ const productSchema = new mongoose.Schema({
         type: Boolean, 
         default: false 
     },
-    AnalyticsDashboard: { 
+    analyticsDashboard: { 
         type: Boolean, 
         default: false 
     },
-    ReportGeneration: { 
+    reportGeneration: { 
         type: Boolean, 
         default: false 
     },
-    DashboardCustomization: { 
+    dashboardCustomization: { 
         type: Boolean, 
         default: false 
     },
-    ReportCustomization: { 
+    reportCustomization: { 
         type: Boolean, 
         default: false 
     },
-    MultipleUserRole: { 
+    multipleUserRole: { 
         type: Boolean, 
         default: false 
     },
-    GranularPermission: { 
+    granularPermission: { 
         type: Boolean, 
         default: false 
     },
-    InformationAccessControl: { 
+    informationAccessControl: { 
         type: Boolean, 
         default: false 
     },
-    RoleBasedAccessControl: { 
+    roleBasedAccessControl: { 
         type: Boolean, 
         default: false 
     },
